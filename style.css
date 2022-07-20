@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+body {
+  background-image:url("resources/backgound.webp");
+}
+
+#center {
+  background-color: #222222;
+  display: flex;
+  color: #ebebeb;
+  flex-direction: row;
+  height: 77vh;
+  text-align: center;  
+  align-items: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+  overflow: hidden;
+  font-family: 'Edu TAS Beginner', cursive;
+  padding: 10px;
+}
+
+#next {
+  transition: 0.4s;
+  padding: 10px;
+  margin-top: 3vh;
+  border-radius: 20%;
+  color: #222222;
+  border: 1px solid white;
+  background-color: transparent;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.70);
+}
+
+#next:hover {
+  transition: 0.4s;
+  background-color: orange;
+  border: 1px solid #222222;
+}
+#previous {
+  transition: 0.4s;
+  padding: 10px;
+  margin-top: 3vh;
+  border-radius: 20%;
+  color: #222222;
+  border: 1px solid white;
+  background-color: transparent;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.70);
+}
+
+#previous:hover {
+  transition: 0.4s;
+  background-color: orange;
+  border: 1px solid #222222;
+}
+
+#image {
+  margin: 10px;
+  object-fit: cover;
+  float: left;
+  height: 90%;
+  width: 60%;
+  transition: 0.4s ease-in-out;
+
+}
+
+#image:hover {
+  transition: 0.4s ease-in-out;
+  float: left;
+  height: 92%;
+  width: 65%;
+}
+
+li {
+  text-align: start;
+}
+
+h1 {
+  transition: 0.4s;
+  font-family: 'Edu TAS Beginner', cursive;
+  color:#fce456 ;
+  font-size:300%;
+}
+
+h1:hover {
+  transition: 0.4s;
+  font-family: 'Edu TAS Beginner', cursive;
+  color:#fce456 ;
+  font-size:360%;
+}
+
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
